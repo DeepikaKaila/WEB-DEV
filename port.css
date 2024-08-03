@@ -4,7 +4,7 @@
   .nav-tabs {
     justify-content: flex-end !important;
     align-items: baseline; /* add this to align with logo baseline */
-  border-bottom: none;
+    sborder-bottom: none;
   }
   body{
     background-color: #e9e6ce;
