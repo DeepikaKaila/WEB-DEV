@@ -1,0 +1,76 @@
+body{
+
+    background: linear-gradient(rgba(33, 105, 145, 0.5), rgba(33, 105, 145, 0.5)), url("IMG.jpg") no-repeat;
+    background-size:cover;
+    background-position:fixed;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:20px 30px;
+    font-family:arial;
+
+}
+nav{
+    display:flex;
+    gap:30px;
+    justify-content: flex-end;
+    padding:20px;
+}
+#ora{
+    color:rgb(210, 118, 4);
+}
+.orange{
+    color:rgb(210, 118, 4);
+}
+.white{
+    color:white;
+}
+main{
+    text-align:center;
+    margin-top:200px;
+    margin-bottom:300px;
+    color:white;
+    font-family:arial;
+}
+a:link{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(210, 118, 4);
+    background-color:transparent;
+    text-decoration:underline;
+
+}
+#button1{
+    padding:15px;
+    background-color:transparent;
+    color:rgb(210, 118, 4);
+    border-color:rgb(210, 118, 4);
+    border-style: solid;
+    border-radius:10px;
+    margin: 0 auto;
+}
+.button2{
+    background-color:rgb(210, 118, 4);
+    padding:10px;
+    color:white;
+    border-radius:10px;
+    border-color:none;}
+
+
+
+
+
+
+    
+
+

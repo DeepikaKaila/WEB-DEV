@@ -1,0 +1,92 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(18, 84, 216, 0.5), rgba(18, 84, 216, 0.5)), url("web.jpeg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-family:arial;
+}
+nav{
+    display: flex;
+    gap:60px;
+    margin-left:-70px;
+    padding:20px 60px 20px 60px;
+    font-size:20px;
+    align-items: center;
+}
+header{
+    display: flex;
+    text-align: center;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px 30px;
+    
+}
+#ora{
+    color:rgb(58, 49, 230);
+}
+.b1{
+    background-color:transparent;
+    padding:5px 20px 5px 20px;
+    align-items:center;
+    margin-right:-40px;
+    margin-left:20px;
+    border-color:white;
+    color:white;
+    font-size:17px;
+}
+.b2{
+    background-color:rgb(122, 183, 207);
+    padding:5px 20px 5px 20px;
+    align-items:center;
+    border-color:white;
+    color:white;
+    font-size:17px;
+}
+
+hr {
+    margin-top:-10px;
+    border-color: rgba(0, 110, 245, 0.726);
+    border-width:2px;
+  }
+.main1{
+    text-align:center;
+    margin-top:250px;
+}
+a:link{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(0, 172, 245);
+    background-color:transparent;
+    text-decoration:underline;
+
+}
+
+.domain-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:200px;
+    margin-top:20px;
+  }
+  
+  .domain-list li {
+    margin-right: 20px;
+  }
+  
+  .domain-list input[type="checkbox"] {
+    margin-right: 10px;
+  }

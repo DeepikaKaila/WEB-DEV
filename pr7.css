@@ -1,0 +1,85 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(12, 12, 48, 0.8), rgba(12, 12, 48, 0.8)), url("stu.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family:arial;
+    color:white;
+}
+nav{
+    display: flex;
+    gap:40px;
+    padding: 20px;
+}
+header{
+    color:white;
+    display: flex;
+    text-align: center;
+    align-items:center;
+    justify-content:space-between;
+    
+    padding: 20px 30px;
+}
+.logo-container {
+    display: flex;
+    
+    align-items: center;
+    gap: 0px; 
+    margin-right: 50px;
+  }
+  
+  .logo-container img {
+    
+    margin-top:0px;
+  }
+  a:link{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(81, 133, 212);
+    background-color:transparent;
+    text-decoration:underline;
+
+}
+.io{
+    display:flex;
+    
+}
+.dropdown-menu{
+color:blue;
+}
+
+.main1{
+    color:white;
+    text-align: left;
+    margin-top: 100px;
+    margin-left:150px;
+}
+.container1{
+    color:white;
+
+}
+div.mycontainer{
+    color:white;
+width:100%;
+display: flex;
+text-align:center;
+padding:80px;
+}
+div.mycontainer div{
+    width:100%
+    float:right;
+}
+.ioss{
+    background-image: linear-gradient(rgba(12, 12, 48, 0.8), rgba(12, 12, 48, 0.8)), url("stu.jpg");
+    background-repeat: no-repeat; 
+}

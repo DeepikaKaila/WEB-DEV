@@ -1,0 +1,250 @@
+.container {
+    font-family: Garamond, serif;
+  }
+  .nav-tabs {
+    justify-content: flex-end !important;
+    align-items: baseline; /* add this to align with logo baseline */
+  border-bottom: none;
+  }
+  body{
+    background-color: #e9e6ce;
+  }
+
+  .nav-tabs .nav-link.active {
+    background-color: #898462;
+    color: #e9e6ce;
+    border-bottom:none;
+  }
+
+  .nav-tabs .nav-link:hover {
+    background-color:#898462 ;
+    color: #e9e6ce;
+  }
+
+  .nav-tabs .nav-link {
+    color:#898462;
+    transition: background-color 0.4s ease, color 0.5s ease;
+  }
+
+  .bg {
+    position: relative; 
+    background-color: #f2f2f2;
+    height: 700px; /* set the height of.bg to match the image height */
+    width: 650px; /* set the width of.bg to full width */
+    margin:0px;
+    border-radius: 50px;
+
+  }
+  
+  #about img {
+    position: absolute; 
+    top:200px;
+    left: 470px; /* move the image 100px to the right to overlap.bg */
+    z-index: 1; 
+  }
+.buttons {
+        position: absolute;
+        top: 370px; /* adjust the top position to match the image's top position */
+        left: 960px; /* adjust the left position to match the image's left position */
+        z-index: 1; /* ensure the buttons are on top of the image */
+        display: flex; /* make the buttons inline-block */
+        flex-direction: row; /* make the buttons horizontal */
+        padding:100px;
+        border-radius:40px;
+      }
+
+      .buttons .nav-item:last-child {
+        margin-left: 1rem; 
+      }
+     
+
+      .buttons .nav-tabs .nav-link.active {
+        background-color: #898462;
+        color: #e9e6ce;
+        border-radius: 40px;
+      }
+    
+      .buttons .nav-tabs .nav-link:hover {
+        background-color:#e9e6ce ;
+        color: #898462;
+        border-radius: 40px;
+        border-color:#898462;
+        border-width:2px;
+        border-bottom: 2px solid #898462;
+      }
+    
+      .buttons .nav-tabs .nav-link {
+        background-color: #898462;
+        color:#e9e6ce;
+        border-radius:40px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      .btn{
+        background-color:#f2f2f2;
+        color:#898462;
+        border-color:#898462;
+        margin:20px;
+        float:right;
+      }
+      .btn:hover{
+        background-color:#898462;
+        color:#e9e6ce;
+        border-width:2px;
+
+      }
+
+    #skills{
+        align-items:center;
+        justify-content: center;
+        text-align:center;
+        color:#898462;
+        margin:30px;
+    }
+
+    .bookmark-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .bookmarks {
+        margin-left: -60px;
+        font-size:17px;
+      }
+      
+      .bookmarks ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .bookmarks li {
+        margin-right: 40px; 
+        margin-top:25px;
+      }
+      
+      .bookmarks a {
+        text-decoration: underline;
+        color: #898462; /* change the color to match your theme */
+      }
+
+      .bookmarks a:hover{
+        color:#A18F63;
+        text-decoration: none;
+      }
+
+      .html {
+        display: flex;
+        align-items: baseline;
+      }
+      
+      .techskills label {
+        display: flex;
+        align-items: center;
+        margin-right: 20px; /* add some space between label and progress bar */
+      }
+      
+      .techskills .progress{
+        flex:1;}
+        .softskills .progress{
+            flex:1;}
+
+
+    .progress-bar
+    {
+        background-color:#e9e6ce ;
+        color:#898462;
+    }
+      .techskills{
+        background-color: #898462;
+        color:#e9e6ce;
+        padding:50x;
+        border-radius: 30px;
+        margin: 80px;
+        flex-wrap: wrap;
+      }
+      .softskills{
+        background-color: #e1ddc4;
+        color:#898462;
+        padding:50x;
+        border-radius: 30px;
+        margin: 80px;
+        flex-wrap: wrap;
+        font-size:18px;
+      }
+      .languages{
+        background-color:#898462 ;
+        color:#e1ddc4;
+        padding:50x;
+        border-radius: 30px;
+        margin: 80px;
+        flex-wrap: wrap;
+        font-size:large;
+        
+      }
+      .css {
+        display: flex;
+        align-items: baseline;
+       
+      }
+
+    .js{
+        display:flex;
+        align-items:baseline;
+       
+    }
+    .b4{
+        display:flex;
+        align-items:baseline;
+        
+    }
+    .bars{
+        padding:30px;
+    }
+
+    #education{
+        align-items:center;
+        justify-content: center;
+        text-align:center;
+        color:#898462;
+        margin:30px;
+    }
+
+    #contact{
+        align-items:center;
+        justify-content: center;
+        text-align:center;
+        color:#898462;
+        margin:30px;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 599px;
+        object-fit: cover;
+      }
+    .carousel-caption{
+        background-color:#89846270;
+    }
+    .carousel-indicators{
+        color:#898462;
+    }
+
+    .form{
+        background-color: #e1ddc4;
+        margin-top:20px;
+        border-radius: 35px;
+        padding:40px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+
+   
+
+
+    

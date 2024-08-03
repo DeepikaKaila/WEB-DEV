@@ -1,0 +1,49 @@
+.container{
+    color:blue;
+    font-family:arial;
+    font-size:35px;
+    padding-left:60px;
+    
+    background-size: cover;
+    background-image:url("hw4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:70px;
+    background-position: top;
+   }
+
+    nav{
+        display: flex;
+        gap:40px;
+        margin-left:50px;
+        padding: 20px;
+        align-items: center;
+    }
+    header{
+        display: flex;
+        text-align: center;
+        align-items:center;
+        justify-content:space-between;
+        padding: 20px 30px;
+        font-size: 25px;
+        font-family:arial;
+        z-index:-1;
+    }
+
+    a:link{
+        color:blue;
+        background-color:transparent;
+        text-decoration:none;
+    }
+    a:visited{
+        color:blue;
+        background-color:transparent;
+        text-decoration:none;
+    }
+    a:hover{
+        color:rgb(140, 210, 47);
+        background-color:transparent;
+        text-decoration:underline;
+    
+    }
+   

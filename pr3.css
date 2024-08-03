@@ -1,0 +1,81 @@
+body{
+    background: #4684ac;
+    background-size:cover;
+    background-position:fixed;
+    background-blend-mode: overlay;
+}
+header{
+    margin-left:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-family: arial;
+    color:white;
+}
+nav{
+    display:flex;
+    gap:30px;
+    margin-right: 80px;
+    align-items: center;
+}
+
+main{
+    text-align: left;
+    margin-top:100px;
+    margin-left:100px;
+    color:white;
+    font-family:arial;
+}
+a:link{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(210, 118, 4);
+    background-color:transparent;
+    text-decoration:underline;
+
+}
+#ora{
+    color:skyblue;
+}
+footer{
+    margin-top:200px;
+    background-color:white;
+    background-size:cover;
+    font-family:arial;
+    text-align: center;
+
+}
+.company{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+    gap:100px;
+}
+#button1{
+    padding:15px;
+    background-color:transparent;
+    color:white;
+    border-color:white;
+    border-style: solid;
+    border-radius:10px;
+    margin: 0 auto;
+}
+#button2{
+    padding:15px;
+    background-color:transparent;
+    color:white;
+    margin: 0 auto;
+    border-color:transparent;
+    align-items:center;
+}

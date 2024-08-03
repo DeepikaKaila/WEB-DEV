@@ -1,0 +1,144 @@
+body{
+    margin-top:100px;
+ 
+    background-size: 100%;
+    background-position: fixed;
+    background-image:url("mountain.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: linear-gradient(to bottom, #003366 30%, #196c77 100%);
+    position: absolute;
+    width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-family: arial;
+    color: rgb(36, 195, 231);
+    height:100px;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+#ora{
+    color:black;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0px; 
+  }
+  
+  .logo-container img {
+    vertical-align: middle;
+  }
+  
+  .logo-container p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+nav{
+    display:flex;
+    gap:40px;
+    margin-right: 120px;
+    align-items: center;
+}
+
+a:link{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(4, 172, 210);
+    background-color:transparent;
+    text-decoration:underline;
+
+}
+main{
+    margin-top: 300px;
+    text-align: center;
+}
+main p{
+    color:white;
+    font-size:70px;
+    font-family:arial;
+}
+.b1{
+    padding:10px 20px 10px 20px;
+    color:#045b78;
+    font-size:20px;
+    float: left;
+    margin-left:100px;
+}
+.b2{
+    padding:15px 40px 15px 40px;
+    color:white;
+    border-radius:35px;
+    background-color:rgb(235, 123, 64);
+    font-size:20px;
+    margin-left: -200px;
+    margin-top:-90px;
+}
+.form{
+    
+    background-color:white;
+    padding:30px 20px 30px 20px;
+    margin-left:100px;
+    margin-top:11px;
+    text-align:left;
+    margin-right:100px;
+    opacity:0.9;
+}
+.form label{
+    color:rgb(116, 107, 107);
+    margin-bottom: 10px;
+    margin-right:150px;
+}
+.form input{
+    margin-right:30px;
+    padding:10px 20px 10px 20px;
+}
+input[type="date"] {
+    width: 181px; 
+    height: 40px; 
+    padding: 10px; 
+    font-size: 16px; 
+    box-sizing: border-box;
+  }
+  .bl label{
+    margin-right:160px;
+  }
+  .bl label[type="Max Price"] {
+    margin-right: 10px;
+  }
+  .bl2{
+    margin-left: 15px; 
+    
+  }
+  .b3{
+    padding:10px 60px 10px 60px;
+    color:white;
+    background-color:rgb(235, 123, 64);
+    font-size:15px;
+    margin-bottom:100px;
+    opacity:100%;
+    position: relative;
+    top: -50px;
+    left:90px;
+}
+
+  
+  
+  

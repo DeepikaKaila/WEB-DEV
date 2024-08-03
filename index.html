@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student's Sukoon</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+        }
+        .header {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 1rem;
+        }
+        .header a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .header a:hover {
+            text-decoration: underline;
+        }
+        .card-deck {
+            width: 100%;
+        }
+        .card {
+            margin: 1rem 0;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: calc(0.25rem - 1px);
+            border-top-right-radius: calc(0.25rem - 1px);
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center mb-4">
+        <h1>Student's Sukoon</h1>
+        <h2>Need to vent? We're here for you!</h2>
+        <img src="doctor1.jpeg" alt="Logo" width="150" height="200">
+    </div>
+    <hr>
+    <div class="header">
+        <a href="/user/chat/">Chat Now</a>
+        <a href="/user/profile/">Create Your Profile</a>
+        <a href="/">Add Your Music Preferences</a>
+        <a href="/">Manage Your Diet</a>
+        <a href="/">Track Your Sleep Cycle</a>
+        <a href="/">Get Yoga/Workout Plan</a>
+        <a href="/">Get Professional Help</a>
+    </div>
+    <hr> 
+    
+    <h3 class="text-center">Find Instant Support</h3>
+    <div class="card-deck">
+        <div class="card">
+            <img src="doctor1.jpeg" alt="Thalia Eley">
+            <div class="card-body">
+                <h4 class="card-title">Thalia Eley</h4>
+                <p class="card-text">Username: thalia245</p>
+                <p class="card-text">A graduate of Cambridge University and University College London’s Institute of Child Health, Thalia Eley is a professor of developmental psychology at King’s College in London. Her publications include over 140 academic articles, with extensive research on genetic and environmental factors and their relation to the treatment of anxiety and depression.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="doctor2.jpeg" alt="Dr. Shraboni Nandi">
+            <div class="card-body">
+                <h4 class="card-title">Dr. Shraboni Nandi</h4>
+                <p class="card-text">Username: shraboni245</p>
+                <p class="card-text">Dr. Shraboni Nandi's innovative therapeutic techniques have redefined the treatment landscape. From mindfulness-based interventions to novel counseling approaches, his work exemplifies a commitment to evolving methodologies for enhanced mental well-being.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="doctor3.jpeg" alt="Ms Gurpal Kaur">
+            <div class="card-body">
+                <h4 class="card-title">Ms Gurpal Kaur</h4>
+                <p class="card-text">Username: gurpal245</p>
+                <p class="card-text">Ms Gurpal Kaur is celebrated for her holistic approach to mental health, seamlessly integrating alternative healing practices. Her emphasis on the mind-body connection has opened new avenues for individuals seeking a comprehensive and integrated approach to well-being.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
